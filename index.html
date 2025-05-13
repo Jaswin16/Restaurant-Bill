@@ -228,7 +228,11 @@
 
         <div class="card">
             <h2>Submit a Dispute</h2>
-            <form id="disputeForm" onsubmit="handleSubmit(event)">
+            <form 
+                  action="https://formspree.io/f/xyzwnqdk"
+                  method="POST"
+                  
+                  id="disputeForm" onsubmit="handleSubmit(event)">
                 <div class="form-group">
                     <label for="name">Your Name:</label>
                     <select id="name" name="name" required>
